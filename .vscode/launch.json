@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.hotel.hotelmanagement.Main",
+            "projectName": "HotelManagement"
+        },
+        {
+            "type": "java",
+            "name": "JavaFX Application",
+            "request": "launch",
+            "mainClass": "com.hotel.hotelmanagement.Main",
+            "projectName": "hotel-management-system-master",
+            "args": "",
+            "vmArgs": "--module-path C:/Users/DELL/Desktop/javafx-sdk-21.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "preLaunchTask": "clean-build"
+          }
+    ]
+}
